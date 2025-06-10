@@ -16,7 +16,7 @@ public class DemoPracticaV2Application {
 		VentaController ventaController = new VentaController();
 		ventaController.crearVenta(ventaDto);
 		
-		
+		ventaController.imprimirVentas();
 		
 	}
 
