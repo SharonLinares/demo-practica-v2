@@ -6,14 +6,13 @@ public class VentaDto {
 	private int cantidad;
 	private double valorUnitario;
 	public double valorTotal;
-	public String codigo;
+	private String codigo;
 
-	public VentaDto(String nombreProducto, int cantidad, double valorUnitario, double valorTotal, String codigo) {
+	public VentaDto(String nombreProducto, int cantidad, double valorUnitario, String codigo) {
 		super();
 		this.nombreProducto = nombreProducto;
 		this.cantidad = cantidad;
 		this.valorUnitario = valorUnitario;
-		this.valorTotal = valorTotal;
 		this.codigo = codigo;
 	}
 
